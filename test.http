@@ -1,0 +1,10 @@
+POST https://reqres.in/api/login
+Content-Type: application/json
+
+eve.holt@reqres.in
+cityslicka
+
+{
+  "email" : "eve.holt@reqres.in",
+  "password": "cityslicka"
+}

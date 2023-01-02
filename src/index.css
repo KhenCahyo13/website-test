@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-gray-800
+}
+
+.sukses {
+  @apply text-green-500 text-sm mt-2
+}
+
+.gagal {
+  @apply text-red-500 text-sm mt-2
+}
+
+.form-control {
+  @apply w-full outline-none border border-gray-800 border-opacity-20 text-sm px-2 py-2 rounded-md mt-1 focus:ring focus:ring-blue-400 focus:ring-opacity-50 transition duration-300
+}
+
+.btn-login {
+  @apply w-full py-2 bg-blue-400 rounded-md text-sm text-white hover:bg-blue-500 transition duration-300
+}
+
+.btn-detail {
+  @apply bg-green-500 px-4 py-1 text-white rounded-md hover:bg-green-600 transition duration-300
+}
+
+.btn-pagination {
+  @apply text-sm bg-gray-400 px-4 py-1 rounded-md hover:bg-gray-500 transition duration-300
+}
+
+.btn-logout {
+  @apply text-base bg-red-500 px-2 py-1 hover:bg-red-600 transition duration-300 text-white rounded-md mb-4
+}
+
+.btn-like {
+  @apply bg-blue-400 px-2 py-1 rounded-md text-white text-base hover:bg-blue-500 transition duration-300
+}
+
+.btn-unlike {
+  @apply bg-red-500 px-2 py-1 rounded-md text-white text-base hover:bg-red-600 transition duration-300
+}
